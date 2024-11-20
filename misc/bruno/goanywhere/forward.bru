@@ -1,0 +1,15 @@
+meta {
+  name: forward
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{baseUrl}}/forward?url=https%3A%2F%2Fapi.coingecko.com%2Fapi%2Fv3%2Fsimple%2Fprice%3Fids%3Dbitcoin%2Cethereum%26vs_currencies%3Dusd
+  body: none
+  auth: none
+}
+
+params:query {
+  url: https%3A%2F%2Fapi.coingecko.com%2Fapi%2Fv3%2Fsimple%2Fprice%3Fids%3Dbitcoin%2Cethereum%26vs_currencies%3Dusd
+}
